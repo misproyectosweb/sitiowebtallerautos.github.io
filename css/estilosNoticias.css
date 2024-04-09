@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/07/2023, 06:01:06 PM
+    Author     : pcgc7
+*/
+
+/* Encabezado */
+header .iconHeader { font-size: 2em; }
+header p { font-size: 1em; }
+header .mr-3 { margin-right: 1em!important; }
+header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+
+/* Menu de navegación */
+header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
+header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; }
+.navbar-toggler { font-size: 2.25em !important; }
+header h3 { font-size: 1.75em!important; }
+.ml-5 { margin-left: 3em! important; }   
+
+/* Titulo */
+.titulo { font-family: 'Bree Serif', serif; font-weight: 400; font-style: normal; }
+.display-4 { font-size: 3.5em!important; }
+.my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+
+/* Pie de página */
+footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+.p-5 { padding: 3em!important; }
+footer h5 { font-size: 1.25em!important; }
+
+/****************************** Media queries ******************************/
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    
+   /* Encabezado */
+    header .iconHeader { font-size: 1.65em; }
+    header p { font-size: 1em; }
+    .mr-3 { margin-right: 1em!important; }
+    header .py-4 { padding-top: 1.5em !important; padding-bottom: 1.5em !important; }
+    
+    /* Menu de navegación */
+    header .nav .nav-item .nav-link { font-size: 1.25em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
+    header .py-3 { padding: 1rem !important; }    
+    header h3 { font-size: 1.5em!important; }
+    .navbar-toggler { font-size: 1.75em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 1em !important; }
+               
+    /* Titulo */
+    .display-4 { font-size: 3.25em!important; }
+    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+        
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+    .p-5 { padding: 2.5em!important; }
+    footer h5 { font-size: 1.25em!important; }           
+ }
+ 
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    
+    /* Encabezado */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.75em; }
+    .mr-3 { margin-right: 0.75em!important; }
+    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+    
+    /* Menu de navegación */
+    header .nav .nav-item .nav-link { font-size: 1em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
+    header .py-3 { padding: 0.75rem !important; }            
+    header h3 { font-size: 1.25em!important; }
+    .navbar-toggler { font-size: 1.5em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 1em !important; }
+                
+    /* Titulo */
+    .display-4 { font-size: 3em!important; }
+    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+  
+    /* Sección principal */
+    main .my-5 { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
+    .card-deck .card { margin-right: 0.25rem !important; }
+    h5 { font-size: 1rem; }
+    main p { font-size: 0.95rem; }
+                
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+    .p-5 { padding: 2em!important; }
+    footer h5 { font-size: 1.25em!important; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    
+    /* Encabezado */
+    header .iconHeader { font-size: 1.5em; }
+    header p { font-size: 0.75em; }
+    .mr-3 { margin-right: 0.75em!important; }
+    header .py-4 { padding-top: 1.25em !important; padding-bottom: 1.25em !important; }
+                   
+    /* Menu de navegación */
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.5em !important; }
+    header .py-3 { padding: 0.75rem !important; }                     
+    header h3 { font-size: 1em!important; }
+    .navbar-toggler { font-size: 1.25em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 0.75em !important; }
+            
+    /* Titulo */
+    .display-4 { font-size: 2.75em!important; }
+    .my-4 { margin-top: 1em!important; margin-bottom: 1em!important; }
+           
+    /* Sección principal */    
+    main .my-5 { margin-top: 2rem !important; margin-bottom: 2rem !important; }
+    .card-deck .card { flex: 1 0 30% !important; }
+    main h5 { font-size: 1.25rem; }
+    main p { font-size: 0.95rem; }    
+    main h6 { font-size: 1rem; }
+
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.75em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer h5 { font-size: 1.15em!important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    /* Encabezado */
+    header .iconHeader { font-size: 1.25em; }
+    header p { font-size: 0.75em; }
+    .mr-3 { margin-right: 0.75em!important; }
+    header .py-4 { padding-top: 1em !important; padding-bottom: 1em !important; }            
+                
+    /* Menu de navegación */
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1.25em !important; }
+    header .py-3 { padding: 0.5em !important; }              
+    header h3 { font-size: 1em!important; }
+    .navbar-toggler { font-size: 1em !important; }
+    .ml-3 { margin-left: 1em! important; }
+    header .p-4 { padding: 0.75em !important; }
+        
+    /* Titulo */
+    .display-4 { font-size: 2.5em!important; }
+    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+
+    /* Sección principal */        
+    main .my-5 { margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+    .card-deck .card { flex: 1 0 50% !important; }
+    main h5 { font-size: 1rem; }
+    main p { font-size: 0.85rem; }    
+    main h6 { font-size: 0.75rem; }
+
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.65em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer h5 { font-size: 1em!important; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    /* Encabezado */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }
+    .mr-3 { margin-right: 0.5em!important; }
+    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+                                    
+    /* Menu de navegación */    
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
+    header h3 { font-size: 0.75em!important; }
+    .navbar-toggler { font-size: 0.75em !important; }
+    .ml-3 { margin-left: 0.75em! important; }
+    header .p-4 { padding: 0.75em !important; }
+                    
+    /* Titulo */
+    .display-4 { font-size: 2.25em!important; }
+    .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+  
+    /* Sección principal */        
+    main .my-5 { margin-top: 1em !important; margin-bottom: 1em !important; }
+    .card-deck .card { flex: 1 0 45% !important; }
+    main h5 { font-size: 1em; }
+    main p { font-size: 0.75em; }
+    main h6 { font-size: 0.75em; }
+
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
+    footer h5 { font-size: 1em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer .col-6 { padding-top: 1em!important; }    
+}
+
+@media screen and (max-width: 575.98px) {
+    
+    /* Encabezado */
+    header .iconHeader { font-size: 1em; }
+    header p { font-size: 0.5em; }
+    header .mr-3 { margin-right: 0.5em!important; }
+    header .py-4 { padding-top: 0.75em !important; padding-bottom: 0.75em !important; }
+    
+    /* Menu de navegación */    
+    header .nav .nav-item .nav-link { font-size: 0.75em !important; padding: 0.75em !important; }
+    header .nav .nav-item .nav-link .iconNav { font-size: 1em !important; }    
+    header h3 { font-size: 0.75em!important; }
+    .navbar-toggler { font-size: 0.75em !important; }
+    .ml-3 { margin-left: 0.75em! important; }              
+    .menu { display: flex; flex-direction: column; justify-content: flex-start ; }
+    .nav-fill .nav-item, .nav-fill>.nav-link { text-align: left; }
+    
+    /* Titulo */  
+    .display-4 { font-size: 1.75em!important; }
+    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    
+    /* Sección principal */  
+    .display-4 { font-size: 1.75em!important; }
+    main .my-4 { margin-top: 0.75em!important; margin-bottom: 0.75em!important; }
+    main h5 {  font-size: 1em; }
+    main p { font-size: 0.75em; }
+    
+    /* Footer */
+    footer a, footer ul li, .copyright { font-size: 0.65em!important; }     
+    footer h5 { font-size: 0.75em!important; }
+    .p-5 { padding: 1.5em!important; }
+    footer .col-6 { padding-top: 1em!important; } 
+}
